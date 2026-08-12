@@ -13,9 +13,9 @@ void merge(emp arr[], int low, int mid, int high)
 {
     emp temp[20];
 
-    int i=low;
-    int j=mid+1;
-    int k=0;
+    int i =low;
+    int j =mid+1;
+    int k =0;
 
     while(i<=mid && j<=high)
     {
