@@ -19,7 +19,7 @@ int fact_recursive(int n)
     }
     else
     {
-        return n*recursive(n-1);
+        return n*fact_recursive(n-1);
     }
 }
 
